@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Web Site Moto Jet</title>
+</head>
+
+<body>
+    <header style="background-image: url('img/background4.jpg')">
+        <div class="mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html"> <img src="img/Logo.png" alt="Logotipo da Empresa"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row justify-content-end" id="navbarText">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="2_OficinaePeças.html">Oficina e Peças</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="3_Alinhamentos.html">Alinhamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="4_Contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container max-width">
+            <fieldset>
+                <legend>
+                    <h3>FALE CONOSCO</h3>
+                </legend>
+                <p>Ligue, faça uma visita, ou mande um e-mail, será um prazer atendê-lo</p>
+                <form class="needs-validation" novalidate action="#" method="post">
+                    <div class="form-group row">
+                        <label for="validationCustom01" class="col-sm-2 col-form-label col-form-label-sm">Nome:*</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" id="validationCustom01"
+                                placeholder="Digite seu nome" required>
+                            <div class="valid-feedback">
+                                Nome OK!
+                            </div>
+                            <div class="invalid-feedback">
+                                Campo nome obrigatório.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="validationCustom02"
+                            class="col-sm-2 col-form-label col-form-label-sm">E-mail:*</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" id="validationCustom02"
+                                placeholder="Digite seu email" required>
+                            <div class="valid-feedback">
+                                E-mail OK!
+                            </div>
+                            <div class="invalid-feedback">
+                                Campo e-mail obrigatório.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="validationCustom03" class="col-sm-2 col-form-label col-form-label-sm">Telefone de
+                            contato:*</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" id="validationCustom03"
+                                placeholder="Digite seu email" required>
+                            <div class="valid-feedback">
+                                Telefone OK!
+                            </div>
+                            <div class="invalid-feedback">
+                                Campo telefone obrigatório.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="validationCustom04" class="col-sm-2 col-form-label col-form-label-sm">Em que podemos
+                            ajuda-lo?:*</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control form-control-sm" id="validationCustom04" required></textarea>
+                            <div class="valid-feedback">
+                                Mensagem OK!
+                            </div>
+                            <div class="invalid-feedback">
+                                Campo mensagem obrigatório.
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-toggle="modal"
+                                data-target="#myModal">Enviar</button>
+                            <p> * Campos Obrigatórios </p>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Mensagem</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Dados recebidos com sucesso, muito obrigado em breve entraremos em contato!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--Rodapé-->
+    <footer class="py-2">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="footer-header">
+                    <h4>Sobre</h4>
+                </div>
+                <div class="footer-content">
+                    <p class="text-justify">Nossa empresa já está a 20 anos neste mercado, é uma empresa de
+                        referência,
+                        com profissionais especializados e sempre atendendo nosso cliente da melhor forma.</p>
+                    <p class="text-justify">Nossa maior satisfação é atender bem as expectativas dos nossos clientes.
+                    </p>
+                    <p>Venha nos fazer uma visita.</p>
+                    <p>Seja muito bem vindo!</p>
+                    <p>Fone (18) 3221-9660 E-mail: motojet_alinhamentos@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-header">
+                    <h4>Localização</h4>
+                </div>
+                <div class="footer-content">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.135233680072!2d-51.381431385419766!3d-22.12081901585737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f58087136b21%3A0x7d2dd33aa7977a9d!2sMoto%20Jet%20Alinhamentos!5e0!3m2!1spt-BR!2sbr!4v1680305341531!5m2!1spt-BR!2sbr"
+                        width="460" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p class="text-justify">Rua Quintino Bocaiuva, 736 - Vila Marcondes - Presidente Prudente-SP CEP
+                        19030-000</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-header">
+                    <h4>Horários</h4>
+                </div>
+                <div class="footer-content">
+                    <p>Segunda à Sexta: 8:00 ás 11:00 e das 13:00 ás 18:00</p>
+                    <p>Sábados: 8:00 as 12:00</p>
+                    <p>Domingos: Fechado</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="mx-auto rodape text-center">
+        <p>2023 @ Todos os direitos reservados . Desenvolvimento Bacarin Web Design</p>
+    </div>
+
+    <!--javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
